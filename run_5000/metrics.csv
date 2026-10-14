@@ -1,0 +1,7 @@
+policy,success_rate,deadline_hit_rate,deadline_miss_rate,failure_attempts_per_task,recovery_rate,avg_latency,avg_cost,avg_reward
+Deadline-aware Q-learning,99.9556,96.4222,3.5778,0.0780,7.3778,5.7342,29.5487,13.3023
+Random feasible (no learning),99.9778,95.6667,4.3333,0.0869,8.2222,5.8657,26.5407,13.2942
+Cheapest feasible,99.9778,92.4222,7.5778,0.1302,12.3333,6.9347,12.3884,13.1365
+Round robin,99.9778,94.0222,5.9778,0.0909,8.6222,5.8596,25.9587,12.7235
+Least loaded,99.9556,93.7111,6.2889,0.0893,8.3778,5.8574,25.0717,12.7090
+Reliability-aware,99.9778,97.7556,2.2444,0.0611,5.7556,5.3736,35.7875,13.2273

@@ -1,0 +1,46 @@
+Deadline-aware RL-Enhanced Multi-Cloud Federation for Fault-Tolerant IoT Task Scheduling
+Training episodes: 300
+Tasks per episode: 150
+Evaluation episodes per policy: 30
+Seed: 11
+
+Deadline-aware Q-learning
+  success_rate: 99.9556
+  deadline_hit_rate: 96.4444
+  deadline_miss_rate: 3.5556
+  failure_attempts_per_task: 0.0880
+  recovery_rate: 8.1333
+  avg_latency: 5.6679
+  avg_cost: 28.0396
+  avg_reward: 13.5571
+
+Round robin
+  success_rate: 99.9556
+  deadline_hit_rate: 93.7556
+  deadline_miss_rate: 6.2444
+  failure_attempts_per_task: 0.0913
+  recovery_rate: 8.4667
+  avg_latency: 5.8195
+  avg_cost: 25.9015
+  avg_reward: 12.6791
+
+Least loaded
+  success_rate: 99.9333
+  deadline_hit_rate: 93.5333
+  deadline_miss_rate: 6.4667
+  failure_attempts_per_task: 0.0956
+  recovery_rate: 8.8667
+  avg_latency: 5.8676
+  avg_cost: 25.1786
+  avg_reward: 12.6456
+
+Reliability-aware
+  success_rate: 99.9556
+  deadline_hit_rate: 97.4222
+  deadline_miss_rate: 2.5778
+  failure_attempts_per_task: 0.0653
+  recovery_rate: 5.8667
+  avg_latency: 5.3710
+  avg_cost: 35.6692
+  avg_reward: 13.1814
+

@@ -1,0 +1,5 @@
+policy,success_rate,deadline_miss_rate,failure_attempts_per_task,recovery_rate,avg_latency,avg_cost,avg_reward
+Q-learning,100.0000,10.5000,0.1000,9.0000,6.6296,16.0668,6.9130
+Round robin,100.0000,7.7500,0.0825,7.5000,5.8464,26.1113,4.7309
+Least loaded,100.0000,6.7500,0.0775,7.2500,5.8598,25.1123,5.1737
+Reliability-aware,100.0000,1.5000,0.0500,4.7500,5.3486,35.9437,2.8065

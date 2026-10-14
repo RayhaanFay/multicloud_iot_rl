@@ -1,0 +1,5 @@
+policy,success_rate,deadline_hit_rate,deadline_miss_rate,failure_attempts_per_task,recovery_rate,avg_latency,avg_cost,avg_reward
+Deadline-aware Q-learning,99.9778,96.1333,3.8667,0.0829,7.7111,5.8090,25.4615,13.6546
+Round robin,99.9778,94.5333,5.4667,0.0829,7.7111,5.7537,25.5993,13.0620
+Least loaded,99.9333,94.0889,5.9111,0.0898,8.3778,5.8082,24.8065,12.9268
+Reliability-aware,99.9778,97.9111,2.0889,0.0609,5.6667,5.3388,35.4627,13.3841

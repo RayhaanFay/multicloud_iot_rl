@@ -1,0 +1,41 @@
+RL-Enhanced Multi-Cloud Federation for Fault-Tolerant IoT Task Scheduling
+Training episodes: 300
+Tasks per episode: 150
+Evaluation episodes per policy: 30
+
+Q-learning
+  success_rate: 99.9333
+  deadline_miss_rate: 8.9111
+  failure_attempts_per_task: 0.1073
+  recovery_rate: 9.7111
+  avg_latency: 6.4993
+  avg_cost: 14.7857
+  avg_reward: 7.3484
+
+Round robin
+  success_rate: 99.9333
+  deadline_miss_rate: 5.4444
+  failure_attempts_per_task: 0.0836
+  recovery_rate: 7.6000
+  avg_latency: 5.7744
+  avg_cost: 25.3472
+  avg_reward: 5.1914
+
+Least loaded
+  success_rate: 99.9111
+  deadline_miss_rate: 6.2000
+  failure_attempts_per_task: 0.0891
+  recovery_rate: 8.1556
+  avg_latency: 5.8236
+  avg_cost: 24.8087
+  avg_reward: 5.2972
+
+Reliability-aware
+  success_rate: 99.9556
+  deadline_miss_rate: 2.0667
+  failure_attempts_per_task: 0.0578
+  recovery_rate: 5.3778
+  avg_latency: 5.3289
+  avg_cost: 35.5186
+  avg_reward: 2.9886
+

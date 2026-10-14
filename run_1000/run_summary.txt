@@ -1,0 +1,66 @@
+Deadline-aware RL-Enhanced Multi-Cloud Federation for Fault-Tolerant IoT Task Scheduling
+Training episodes: 300
+Tasks per episode: 150
+Evaluation episodes per policy: 30
+Seed: 1000
+
+Deadline-aware Q-learning
+  success_rate: 99.9778
+  deadline_hit_rate: 95.8000
+  deadline_miss_rate: 4.2000
+  failure_attempts_per_task: 0.0838
+  recovery_rate: 7.9111
+  avg_latency: 5.7685
+  avg_cost: 25.0580
+  avg_reward: 13.6259
+
+Random feasible (no learning)
+  success_rate: 100.0000
+  deadline_hit_rate: 96.1556
+  deadline_miss_rate: 3.8444
+  failure_attempts_per_task: 0.0842
+  recovery_rate: 7.9778
+  avg_latency: 5.7547
+  avg_cost: 26.0066
+  avg_reward: 13.6325
+
+Cheapest feasible
+  success_rate: 99.9778
+  deadline_hit_rate: 93.1111
+  deadline_miss_rate: 6.8889
+  failure_attempts_per_task: 0.1244
+  recovery_rate: 11.8222
+  avg_latency: 6.7863
+  avg_cost: 11.5260
+  avg_reward: 13.5947
+
+Round robin
+  success_rate: 100.0000
+  deadline_hit_rate: 94.1333
+  deadline_miss_rate: 5.8667
+  failure_attempts_per_task: 0.0878
+  recovery_rate: 8.3111
+  avg_latency: 5.7422
+  avg_cost: 25.3761
+  avg_reward: 12.9189
+
+Least loaded
+  success_rate: 100.0000
+  deadline_hit_rate: 94.2000
+  deadline_miss_rate: 5.8000
+  failure_attempts_per_task: 0.0907
+  recovery_rate: 8.5333
+  avg_latency: 5.7744
+  avg_cost: 24.7069
+  avg_reward: 13.0139
+
+Reliability-aware
+  success_rate: 100.0000
+  deadline_hit_rate: 97.4444
+  deadline_miss_rate: 2.5556
+  failure_attempts_per_task: 0.0664
+  recovery_rate: 6.1333
+  avg_latency: 5.3191
+  avg_cost: 35.0828
+  avg_reward: 13.2815
+
